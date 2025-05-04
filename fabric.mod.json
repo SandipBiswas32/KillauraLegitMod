@@ -1,0 +1,23 @@
+
+{
+  "schemaVersion": 1,
+  "id": "killauralegit",
+  "version": "1.0.0",
+  "name": "Killaura Legit",
+  "description": "A simple legit Killaura mod using Fabric.",
+  "authors": ["Converted by ChatGPT"],
+  "contact": {},
+
+  "license": "GPL-3.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.killauralegit.KillauraLegitMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric": "*",
+    "minecraft": "1.21.1"
+  }
+}
